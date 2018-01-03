@@ -1,0 +1,32 @@
+Swing Forge UI Sections
+
+Charging (plug on bottom of board with leds where? front?)
+
+Turn on - press switch, instant LED feedback
+	+ emilia's interactions
+	+ "calibrating"
+	+ auto detect when calibration is actually done
+	and actually make the fast calibration started
+
+audio prompt for instructions? (if swings < N, provide instructions. else, prompt to provide instructions (double tap?))
+
+
+
+
+BLE Programming (audio prompt - "settings updated successfully")
+Idle - breathing RGB LED on top  (can only be seen by wearer)
+	timeout can shutdown whole system, or could be woken up - tie into power switch? or just a good deep sleep mode
+Starting Swing
+	double pulse confirmation start
+	auto detect left/right handed
+	+emilia's feedback
+	timeout
+	exiting swing early - one tap?
+Low battery?
+	LED indication
+	Audio feedback before shutdown
+Volume control
+	small slider on side (careful not to let it be hit by other clothing), as it's changed, play a gentle note at the given volume
+
+
+
